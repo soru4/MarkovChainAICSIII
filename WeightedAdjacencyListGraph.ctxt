@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=WeightedAdjacencyListGraph
+comment1.params=
+comment1.target=WeightedAdjacencyListGraph()
+comment2.params=node
+comment2.target=boolean\ add(java.lang.Object)
+comment2.text=\r\n\tAdd\ a\ node\ to\ the\ graph\r\n\r\n\tAdd\ a\ node\ to\ the\ graph\ exactly\ like\ an\ AdjacencyGraph,\r\n\tthen\ create\ a\ Map\ to\ keep\ track\ of\ weight\ associations\ between\ neighbors\r\n\r\n\t@param\ node\ the\ data\ to\ add\ to\ the\ graph.\ Duplicate\ data\ will\ not\ be\ added.\r\n\t@return\ true\ if\ the\ data\ was\ successfully\ added\ to\ graph\r\n
+comment3.params=from\ to\ weight
+comment3.target=void\ setWeight(java.lang.Object,\ java.lang.Object,\ int)
+comment3.text=\r\n\tSet\ the\ weight\ between\ two\ nodes\r\n\r\n\t@param\ from\ the\ node\ to\ set\ the\ weight\ from\r\n\t@param\ to\ the\ node\ to\ set\ the\ weight\ to\r\n\t@param\ the\ weight\ to\ set\r\n
+comment4.params=from\ to
+comment4.target=int\ getWeight(java.lang.Object,\ java.lang.Object)
+comment4.text=\r\n\tSet\ the\ weight\ between\ two\ nodes\r\n\r\n\tIf\ there\ is\ no\ edge\ between\ the\ nodes,\ this\ will\ return\ 0.\r\n\tIf\ no\ weight\ has\ been\ assigned\ to\ these\ nodes,\ then\ this\ will\ return\ 0.\r\n\t\r\n\t@param\ from\ the\ node\ to\ get\ the\ weight\ from\r\n\t@param\ to\ the\ node\ to\ get\ the\ weight\ to\r\n\t@return\ the\ weight\ between\ from\ and\ to\ or\ 0\ if\ no\ edge\ or\ weight\ exists.\r\n
+comment5.params=node
+comment5.target=java.util.Map\ getNeighborWeights(java.lang.Object)
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\r\n\tReturn\ a\ string\ representation\ of\ the\ weighted\ graph\ data\r\n\r\n\t@return\ a\ string\ representation\ of\ the\ weighted\ graph\r\n
+numComments=7

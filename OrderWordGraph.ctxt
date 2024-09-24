@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=OrderWordGraph
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ OrderWordGraph\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=OrderWordGraph()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ OrderWordGraph\r\n
+comment2.params=str\ order
+comment2.target=void\ processString(java.lang.String,\ int)
+comment3.params=newWord
+comment3.target=void\ addWord(java.lang.String)
+comment3.text=\r\n\ \ \ \ "Sanatize"\ newWord\ by\ trimming\ extra\ spaces\ from\ the\ endges\ (use\ the\ trim()\ method)\r\n\ \ \ \ Add\ the\ specified\ word\ to\ the\ graph.\r\n\ \ \ \ Add\ an\ edge\ between\ lastWord\ and\ the\ newWord\r\n\ \ \ \ Increment\ the\ weight\ between\ these\ nodes\ by\ 1\r\n\ \ \ \ Set\ lastWord\ to\ point\ to\ newWord\r\n
+comment4.params=newWord\ order
+comment4.target=void\ addWord(java.lang.String,\ int)
+comment5.params=filename\ order
+comment5.target=void\ processFile(java.lang.String,\ int)
+comment6.params=
+comment6.target=WeightedGraph\ getGraph()
+numComments=7
